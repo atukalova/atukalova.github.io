@@ -1,0 +1,290 @@
+.wrapper{
+    margin: 0 auto;  
+    max-width: 1400px;
+}
+header{
+    background-image: url(../images/background.png); 
+    min-height: 100vh;   
+
+}
+.menu_a{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 26px;
+    letter-spacing: 1px;
+
+}
+.menu_a:hover{
+    color: #d6b429;
+    position: relative;
+    transition-property: color;
+    transition-duration: 2s;
+}
+.square{
+    border: 1px solid #d6b429;
+    border-radius: 50%;
+    height: 3px;
+    width: 3px; 
+    /* margin-top: -12px;    */
+}
+.logo{
+    display: block;
+
+}
+.menu_top{
+    padding: 46px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    margin-top: 250px;
+}
+h1{
+    color: #d6b429;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 52px !important;
+    font-weight: 800 !important;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+h2{
+    color: #ffffff;
+    font-family: 'Crimson Text', serif !important;
+    font-size: 20px !important;
+    font-style: italic !important;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.scroll_down{
+margin-top: 150px; 
+text-align: center;
+} 
+h3{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px;  
+    margin-top: 20px !important;
+    margin-bottom: 40px !important;
+    text-transform: uppercase;
+}
+.about_us{
+    background-image: url(../images/background_p2.png);
+    height: 800px;
+}
+h4{
+    color: #000000;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 36px !important;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #d6b429;
+    text-align: center;
+    padding: 100px !important;
+}
+p{
+    color: #000000;
+    font-family: 'Crimson Text', serif !important;
+    font-size: 16px;
+    font-style: none;
+    text-align: justify;
+    line-height: 26px !important;
+    margin-right: 290px !important;
+    margin-left: 290px !important;
+}
+.load_more{
+    border-style: solid;
+    border-width: medium;
+    border-color: #d6b429;
+    text-align: center;
+    padding: 15px 30px;
+    margin: 0 auto;
+    max-width: 200px;
+    margin-top: 60px;
+}
+.load_more:hover{
+    background-color: #d6b429;
+}
+a{
+    color: #000000;
+    font-family:'Raleway', sans-serif !important;
+    font-weight: 800 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.portfolio{
+    height: 1200px;
+}
+.lorem{
+    font-size: 20px !important;
+    text-align: center;
+}
+.main_button{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.button{
+    font-family: 'Raleway', sans-serif;
+    font-size:12px !important;
+    font-weight: 300 !important;
+    letter-spacing: 1px;
+    border: 1px solid #d6b429;
+    padding: 15px 30px;
+}
+.button:hover{
+    background-color: #d6b429;
+}
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pictures img{
+    width: 360px !important;
+    height: 300px !important;
+    /* vertical-align: top; */
+}
+.our_team{
+    height: 800px;
+    background-color: #fdfdfd;
+}
+.gallery{
+    margin: 5px ;
+    border: 10px solid #ffffff;
+    float: left;
+    position: relative;
+    left: 270px;;
+    right: 270px;
+}
+.gallery:hover{
+    border: 10px solid #d6b429;
+}
+.gallery img{
+    width: 250px;
+    height: 250px;
+}
+.text{
+    padding: 18px !important;
+    font-family:'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.text div{
+    font-weight: 300 !important;
+    font-size: 14px;
+    text-transform: none;
+    margin-top:20px;
+}
+.our_skills{
+    height: 800px;
+    background-image: url(../images/background_image.png);
+}
+.circle{
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    height: 164px;
+    width: 164px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 30px;
+}   
+.circle:hover{
+    transition-duration: 2s;
+    background-image:
+       radial-gradient(circle at 0% 0%, transparent 60%, rgb(244,198,11) 40%, rgb(244,198,11) 70%, transparent 70%),
+       radial-gradient(circle at 100% 0%, transparent 60%, rgba(244,198,11) 40%, rgba(244,198,11) 70%, transparent 70%),
+       radial-gradient(circle at 100% 100%, transparent 60%, rgba(255,255,255) 40%, rgba(255,255,255) 70%, transparent 70%),
+       radial-gradient(circle at 0% 100%, transparent 60%, rgba(244,198,11) 40%, rgba(244,198,11) 70%, transparent 70%);
+      background-repeat: no-repeat;
+      background-size: 50% 50%;
+      background-position: 100% 100%, 0 100%, 0 0, 100% 0;
+}
+
+.circle_photography{
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    height: 164px;
+    width: 164px; 
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    display: inline-block;
+    padding: 30px;
+
+}
+.circle_photography:hover{
+transition-duration: 2s;
+background-image:
+   radial-gradient(circle at 0% 0%, transparent 60%, rgb(244,198,11) 40%, rgb(244,198,11) 70%, transparent 70%),
+   radial-gradient(circle at 100% 0%, transparent 60%, rgba(244,198,11) 40%, rgba(244,198,11) 70%, transparent 70%),
+   radial-gradient(circle at 100% 100%, transparent 60%, rgba(255,255,255) 40%, rgba(255,255,255) 70%, transparent 70%),
+   radial-gradient(circle at 0% 100%, transparent 60%, rgba(244,198,11) 40%, rgba(244,198,11) 70%, transparent 70%);
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  background-position: 100% 100%, 0 100%, 0 0, 100% 0;
+}
+.circle_music{
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    height: 164px;
+    width: 164px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    display: inline-block;
+    padding: 30px;
+
+
+}
+.circle_music:hover{
+   transition-duration: 2s;
+background-image:
+   radial-gradient(circle at 0% 0%, transparent 60%, rgb(255,255,255) 40%, rgb(255,255,255) 70%, transparent 70%),
+   radial-gradient(circle at 100% 0%, transparent 60%, rgba(255,255,255) 40%, rgba(255,255,255) 70%, transparent 70%),
+   radial-gradient(circle at 100% 100%, transparent 60%, rgba(255,255,255) 40%, rgba(255,255,255) 70%, transparent 70%),
+   radial-gradient(circle at 0% 100%, transparent 60%, rgba(244,198,11) 40%, rgba(244,198,11) 70%, transparent 70%);
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  background-position: 100% 100%, 0 100%, 0 0, 100% 0;
+}
+.all_circle{
+    padding: 100px;
+}
+
+.quote{
+    height: 420px;
+    background-image: url(../images/yukio.png);
+}
+.quote p{
+font-family: 'Crimson Text', serif !important;
+color: #ffffff;
+font-size: 20px;
+letter-spacing: 2px;
+margin: 0 auto;
+text-align: center;
+}
+ 
+    
+ 
+
