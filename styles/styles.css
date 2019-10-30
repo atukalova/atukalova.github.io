@@ -1,10 +1,10 @@
 .wrapper{
     margin: 0 auto;  
-    max-width: 1400px;
+    max-width: 1600px;
 }
 header{
-    background-image: url(../images/background.png); 
-    min-height: 100vh;   
+    background-image: url("../images/background.png"); 
+    min-height: 90vh;   
 
 }
 .menu_a{
@@ -16,6 +16,7 @@ header{
     text-transform: uppercase;
     padding: 26px;
     letter-spacing: 1px;
+    
 
 }
 .menu_a:hover{
@@ -33,10 +34,9 @@ header{
 }
 .logo{
     display: block;
-
 }
 .menu_top{
-    padding: 46px 0px;
+    padding: 46px 60px ;
     display: flex;
     justify-content: space-between;
 }
@@ -45,7 +45,9 @@ ul{
     justify-content: space-between;
     align-items: center;
 }
-
+li{ 
+    height:32px ;           
+}
 .name{
     margin-top: 250px;
 }
@@ -67,22 +69,23 @@ h2{
     letter-spacing: 4px;
 }
 .scroll_down{
-margin-top: 150px; 
-text-align: center;
+    margin-top: 150px; 
+    text-align: center;
 } 
-h3{
+h3 a {
     color: #ffffff;
     font-family: 'Raleway', sans-serif !important;
     font-size: 14px !important;
     font-weight: 700 !important;
     letter-spacing: 1px;  
-    margin-top: 20px !important;
-    margin-bottom: 40px !important;
     text-transform: uppercase;
+    padding: 20px !important;
+    display: block;
 }
 .about_us{
-    background-image: url(../images/background_p2.png);
-    height: 800px;
+    background-image: url("../images/background_p2.png");
+    min-height: 90vh;   
+
 }
 h4{
     color: #000000;
@@ -93,17 +96,21 @@ h4{
     text-decoration: underline;
     text-decoration-color: #d6b429;
     text-align: center;
-    padding: 100px !important;
+    padding: 60px !important;
 }
 p{
     color: #000000;
     font-family: 'Crimson Text', serif !important;
-    font-size: 16px;
-    font-style: none;
+    font-size: 16px !important;
     text-align: justify;
     line-height: 26px !important;
-    margin-right: 290px !important;
-    margin-left: 290px !important;
+}
+.text-lorem{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 120px 0px;
 }
 .load_more{
     border-style: solid;
@@ -113,7 +120,8 @@ p{
     padding: 15px 30px;
     margin: 0 auto;
     max-width: 200px;
-    margin-top: 60px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 .load_more:hover{
     background-color: #d6b429;
@@ -125,9 +133,6 @@ a{
     text-decoration: none;
     text-transform: uppercase;
 }
-.portfolio{
-    height: 1200px;
-}
 .lorem{
     font-size: 20px !important;
     text-align: center;
@@ -135,7 +140,10 @@ a{
 .main_button{
     margin-top: 50px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 50px;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .button{
     font-family: 'Raleway', sans-serif;
@@ -155,19 +163,19 @@ a{
 .pictures img{
     width: 360px !important;
     height: 300px !important;
-    /* vertical-align: top; */
 }
 .our_team{
-    height: 800px;
     background-color: #fdfdfd;
+}
+.main_gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 80px 0px;
 }
 .gallery{
     margin: 5px ;
     border: 10px solid #ffffff;
-    float: left;
-    position: relative;
-    left: 270px;;
-    right: 270px;
 }
 .gallery:hover{
     border: 10px solid #d6b429;
@@ -183,98 +191,58 @@ a{
     text-align: center;
     text-transform: uppercase;
     font-size: 24px;
+    display: block;
 }
-.text div{
+.profesion{
+    font-family:'Raleway', sans-serif;
     font-weight: 300 !important;
     font-size: 14px;
     text-transform: none;
     margin-top:20px;
 }
 .our_skills{
-    height: 800px;
-    background-image: url(../images/background_image.png);
+    background-image: url("../images/background_image.png");
+}
+.all_circle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 160px;
 }
 .circle{
     border: 8px solid #ffffff;
     border-radius: 50%;
-    height: 164px;
     width: 164px;
+    height: 164px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 50px;
-    margin-left: 20px;
     display: inline-block;
     padding: 30px;
 }   
 .circle:hover{
-    transition-duration: 2s;
-    background-image:
-       radial-gradient(circle at 0% 0%, transparent 60%, rgb(244,198,11) 40%, rgb(244,198,11) 70%, transparent 70%),
-       radial-gradient(circle at 100% 0%, transparent 60%, rgba(244,198,11) 40%, rgba(244,198,11) 70%, transparent 70%),
-       radial-gradient(circle at 100% 100%, transparent 60%, rgba(255,255,255) 40%, rgba(255,255,255) 70%, transparent 70%),
-       radial-gradient(circle at 0% 100%, transparent 60%, rgba(244,198,11) 40%, rgba(244,198,11) 70%, transparent 70%);
-      background-repeat: no-repeat;
-      background-size: 50% 50%;
-      background-position: 100% 100%, 0 100%, 0 0, 100% 0;
+    transition-property:color;
+    transition-duration: 4s;
+    position: relative;
+    border-color: #d6b429;
+
 }
 
-.circle_photography{
-    border: 8px solid #ffffff;
-    border-radius: 50%;
-    height: 164px;
-    width: 164px; 
+.bottom-text{
+    display: block;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    font-size: 50px;
-    display: inline-block;
-    padding: 30px;
-
 }
-.circle_photography:hover{
-transition-duration: 2s;
-background-image:
-   radial-gradient(circle at 0% 0%, transparent 60%, rgb(244,198,11) 40%, rgb(244,198,11) 70%, transparent 70%),
-   radial-gradient(circle at 100% 0%, transparent 60%, rgba(244,198,11) 40%, rgba(244,198,11) 70%, transparent 70%),
-   radial-gradient(circle at 100% 100%, transparent 60%, rgba(255,255,255) 40%, rgba(255,255,255) 70%, transparent 70%),
-   radial-gradient(circle at 0% 100%, transparent 60%, rgba(244,198,11) 40%, rgba(244,198,11) 70%, transparent 70%);
-  background-repeat: no-repeat;
-  background-size: 50% 50%;
-  background-position: 100% 100%, 0 100%, 0 0, 100% 0;
+.bottom-text li{
+    font-family:'Raleway', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 20px;
+     margin-top:40px;
+     letter-spacing: 1px;
 }
-.circle_music{
-    border: 8px solid #ffffff;
-    border-radius: 50%;
-    height: 164px;
-    width: 164px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    font-size: 50px;
-    display: inline-block;
-    padding: 30px;
-
-
-}
-.circle_music:hover{
-   transition-duration: 2s;
-background-image:
-   radial-gradient(circle at 0% 0%, transparent 60%, rgb(255,255,255) 40%, rgb(255,255,255) 70%, transparent 70%),
-   radial-gradient(circle at 100% 0%, transparent 60%, rgba(255,255,255) 40%, rgba(255,255,255) 70%, transparent 70%),
-   radial-gradient(circle at 100% 100%, transparent 60%, rgba(255,255,255) 40%, rgba(255,255,255) 70%, transparent 70%),
-   radial-gradient(circle at 0% 100%, transparent 60%, rgba(244,198,11) 40%, rgba(244,198,11) 70%, transparent 70%);
-  background-repeat: no-repeat;
-  background-size: 50% 50%;
-  background-position: 100% 100%, 0 100%, 0 0, 100% 0;
-}
-.all_circle{
-    padding: 100px;
-}
-
 .quote{
-    height: 420px;
-    background-image: url(../images/yukio.png);
+    background-image: url("../images/yukio.png");
+    padding: 140px;
 }
 .quote p{
 font-family: 'Crimson Text', serif !important;
